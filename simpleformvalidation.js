@@ -1,4 +1,4 @@
-<form name="kittysForm">
-  <input type="checkbox" name="thebox" />
-  <input type="button" value="Press me!" onClick="validator()" />
-</form>;
+function validator() {
+  if (document.kittysForm.thebox.checked) alert("yep, it's checked");
+  else alert("nope, not checked");
+}

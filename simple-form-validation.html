@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script type="text/javascript">
-        function validator(){
-            if(document.kittysForm.thebox.checked)
-                alert("yep, it's checked");
-            else
-                alert("nope, not checked");
-        }
-    </script>
+    <script src="simpleformvalidation.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    
     <form name="kittysForm">
-        <input type="checkbox" name="thebox" />
-        <input type="button" value="Press me!" onClick="validator()" />
+      <input type="checkbox" name="thebox" />
+      <input type="button" value="Press me!" onClick="validator()" />
     </form>
-
   </body>
 </html>
